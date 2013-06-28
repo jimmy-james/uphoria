@@ -110,12 +110,9 @@ a {
     background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
 
-ul {
+.inline ul {
     list-style-type: none;
     margin: 0px;
-}
-
-ul {
     padding-left: 0px;
 }
 
@@ -126,6 +123,10 @@ ul {
 
 .inline li {
     display: inline;
+}
+
+li {
+    text-align: left;
 }
 
 .hide {
